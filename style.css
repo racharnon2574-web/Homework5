@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: sticky;
+    background-color: coral;
+    height: 5vh;
+    width: 100%;
+}
+
+nav>img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 15px;
+    border-radius: 50%;
+}
+
+nav>h1 {
+    text-align: center;
+    margin: 1vh;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    font-size: 25px;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    position: relative;
+}
+
+.inline>img {
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.inline p {
+    margin-inline: 15px;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+
+.you p {
+    background-color: orange;
+}
+
+.me {
+    justify-content: end;
+
+}
+
+.me p {
+    background-color: yellow;
+}
+
+.type {
+
+    margin-top: 75vh;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.type>p {
+    background-color: white;
+    width: 95%;
+    height: 3vh;
+    border: 2px solid black;
+    border-radius: 0%;
+}
+
+.type>i {
+    border: 2px solid black;
+    background-color: white;
+
+    font-size: 23px;
+    padding: 1% auto;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    top: auto;
+    bottom: auto;
+}
+
+
+i {
+    text-align: start;
+}
